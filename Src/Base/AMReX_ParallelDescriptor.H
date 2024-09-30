@@ -108,7 +108,7 @@ while ( false )
     void Finalize ();
 
     extern AMREX_EXPORT bool use_gpu_aware_mpi;
-    inline bool UseGpuAwareMpi () { return use_gpu_aware_mpi; }
+    inline bool UseGpuAwareMpi () { return true; }
 
     //! Split the process pool into teams
     void StartTeams ();
